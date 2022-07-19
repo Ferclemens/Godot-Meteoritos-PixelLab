@@ -7,3 +7,4 @@
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 496.063, 271 )
 gravity_scale = 0.0
+can_sleep = false
