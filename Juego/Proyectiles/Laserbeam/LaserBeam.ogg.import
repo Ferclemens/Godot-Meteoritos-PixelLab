@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/LaserBeam.ogg-c109234906e0c6707d0c6a296f82139d.oggstr"
+
+[deps]
+
+source_file="res://Juego/Proyectiles/Laserbeam/LaserBeam.ogg"
+dest_files=[ "res://.import/LaserBeam.ogg-c109234906e0c6707d0c6a296f82139d.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
