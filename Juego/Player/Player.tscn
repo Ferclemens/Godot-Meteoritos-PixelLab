@@ -67,6 +67,7 @@ z_as_relative = false
 target_path = NodePath("..")
 
 [node name="MotorSFX" parent="." instance=ExtResource( 6 )]
+autoplay = false
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 root_node = NodePath(".")
