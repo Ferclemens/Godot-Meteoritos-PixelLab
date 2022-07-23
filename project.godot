@@ -14,10 +14,20 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Juego/Proyectiles/Canion.gd"
 }, {
+"base": "Line2D",
+"class": "Estela",
+"language": "GDScript",
+"path": "res://Juego/Player/Estela/Trail2D.gd"
+}, {
 "base": "RayCast2D",
 "class": "LaserBeam2D",
 "language": "GDScript",
 "path": "res://Juego/Proyectiles/Laserbeam/LaserBeam2D.gd"
+}, {
+"base": "AudioStreamPlayer2D",
+"class": "Motor",
+"language": "GDScript",
+"path": "res://Juego/Player/Motor/MotorSFX.gd"
 }, {
 "base": "Node2D",
 "class": "Nivel",
@@ -36,7 +46,9 @@ _global_script_classes=[ {
 } ]
 _global_script_class_icons={
 "Canion": "",
+"Estela": "",
 "LaserBeam2D": "",
+"Motor": "",
 "Nivel": "",
 "Player": "",
 "Proyectil_principal": ""

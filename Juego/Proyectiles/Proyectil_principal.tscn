@@ -9,6 +9,7 @@ height = 45.261
 
 [node name="Proyectil_principal" type="Area2D"]
 rotation = 1.5708
+z_as_relative = false
 script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]
